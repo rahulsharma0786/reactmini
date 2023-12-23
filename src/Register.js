@@ -20,7 +20,7 @@ setInput(values=>({...values,[name]:value}))
 }
 
 const inputsave=()=>{
-    window.location.reload(false); 
+    
 axios.post("https://nodeapps-qbei.onrender.com/stusave",input).then(()=>{
     console.log("data save")
     
